@@ -37,9 +37,9 @@ const App = () => {
         <NavigationContainer>
           <Stack.Navigator>
             <Stack.Screen name='OAuth' component={OAuth} options={{headerShown:false}}/>
-            <Stack.Screen name='SignIn' component={SignIn} options={{headerShown:true}}/>
-            <Stack.Screen name='SignUp' component={SignUp} options={{headerShown:true}}/>
-            <Stack.Screen name='TabNavigator' component={TabNavigator} options={{headerShown:true}}/>
+            <Stack.Screen name='SignIn' component={SignIn} options={{headerShown:false}}/>
+            <Stack.Screen name='SignUp' component={SignUp} options={{headerShown:false}}/>
+            <Stack.Screen name='TabNavigator' component={TabNavigator} options={{headerShown:false}}/>
           </Stack.Navigator>
         </NavigationContainer>
     </SafeAreaProvider>
